@@ -1,7 +1,0 @@
-import genHtml
-
-
-genHtml.tiskniHtml()
-
-
-
