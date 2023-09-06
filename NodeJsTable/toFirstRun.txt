@@ -1,0 +1,2 @@
+For first run is necessary to install node.js modules:
+npm install --save-dev @babel/register

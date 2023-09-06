@@ -1,0 +1,149 @@
+
+    /* tyka se rozvzeni v "nastaveniProjektu" */
+    
+    table {
+        font-family: arial, sans-serif;
+        border: 1px solid blue;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th, tr {
+        border: 1px solid blue;
+        text-align: left;
+        padding: 8px;
+    }
+
+    
+    td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nadpisBunky{
+        font-weight: bold;
+        color: darkblue;
+    }
+
+    label{
+        line-height: 20pt;
+    }
+
+    .textField{
+        width: 60px
+    }
+
+
+    .test{
+        padding: 10px;
+    }
+
+    div{
+        text-align: left;
+    }
+
+
+    
+    /* vlozi elementy <div> vedle sebe, nikoliv pod sebe */
+    .headerLabelWidth, .headerInputWidth {
+        display: inline-block; 
+    }
+
+    .headerLabelHeight, .headerInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .menuLabelWidth, .menuInputWidth {
+        display: inline-block; 
+    }
+
+    .menuLabelHeight, .menuInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .scalesLabelWidth, .scalesInputWidth {
+        display: inline-block; 
+    }
+
+    .scalesLabelHeight, .scalesInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .mainViewLabelWidth, .mainViewInputWidth {
+        display: inline-block; 
+    }
+
+    .mainViewLabelHeight, .mainViewInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .verticalViewLabelWidth, .verticalViewInputWidth {
+        display: inline-block; 
+    }
+
+    .verticalViewLabelHeight, .verticalViewInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .horizontalViewLabelWidth, .horizontalViewInputWidth {
+        display: inline-block; 
+    }
+
+    .horizontalViewLabelHeight, .horizontalViewInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+    .detailViewLabelWidth, .detailViewInputWidth {
+        display: inline-block; 
+    }
+
+    .detailViewLabelHeight, .detailViewInputHeight {
+        display: inline-block; 
+    }
+
+    /* --------------------------------------- */
+
+
+
+    /* umisti popisek "width" a "height" na 1. radku (na uroven 1. radiobuttonu) */
+    .headerLabelWidth, .headerLabelHeight{
+        vertical-align: top;
+    }
+
+    .menuLabelWidth, .menuLabelHeight{
+        vertical-align: top;
+    }
+
+    .scalesLabelWidth, .scalesLabelHeight{
+        vertical-align: top;
+    }
+
+    .mainViewLabelWidth, .mainViewLabelHeight{
+        vertical-align: top;
+    }
+
+    .verticalViewLabelWidth, .verticalViewLabelHeight{
+        vertical-align: top;
+    }
+
+    .horizontalViewLabelWidth, .horizontalViewLabelHeight{
+        vertical-align: top;
+    }
+
+    .detailViewLabelWidth, .detailViewLabelHeight{
+        vertical-align: top;
+    }
+
+ 

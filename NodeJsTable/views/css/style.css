@@ -1,0 +1,66 @@
+
+.wrapper > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu {
+    grid-area: a;
+}
+.hlavicka {
+    grid-area: b;
+    align-self: start;
+}
+.meritka {
+    grid-area: c;
+    overflow-x: scroll; 
+    overflow-y: scroll;
+    font-size: 10px;
+}
+.hlOkno {
+    grid-area: d;
+    justify-self: stretch;
+    overflow-x: scroll; 
+    overflow-y: scroll;
+}
+.detOkno {
+    grid-area: e;
+    justify-self: end;
+    overflow-x: scroll; 
+    overflow-y: scroll;
+}
+.vodRez {
+    grid-area: f;
+    justify-self: stretch;
+    overflow-x: scroll; 
+    overflow-y: scroll;
+}
+.svisRez {
+    grid-area: g;
+    width: 100px;
+    justify-self: end;
+    overflow-x: scroll; 
+    overflow-y: scroll;
+}
+
+.block {
+    left: 0px;
+    text-align: left;
+    margin-left: 50px;
+    float: left;
+    
+}
+
+#error{
+    position: absolute;
+    right: 0px;
+}
+
+/*
+#error {
+    border: 5px outset red;
+    background-color: rgb(230, 207, 173);    
+    text-align: center;
+}
+*/
